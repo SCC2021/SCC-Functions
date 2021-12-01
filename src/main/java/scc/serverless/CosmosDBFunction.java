@@ -87,8 +87,8 @@ public class CosmosDBFunction {
             collectionName = "DeletedChannels",
             createLeaseCollectionIfNotExists = true,
             connectionStringSetting = connectionStringSetting)
-                                          String[] deleted_channels,
-                                  final ExecutionContext context) {
+                                             String[] deleted_channels,
+                                     final ExecutionContext context) {
         Gson gson = new Gson();
         CosmosDBLayer db = CosmosDBLayer.getInstance();
         CosmosContainer deleted_channels_container = db.getChannelsContainer();
