@@ -2,6 +2,8 @@
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "",
-    "FUNCTIONS_WORKER_RUNTIME": "java"
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "COSMOSDB_KEY": "n1iU4IqOoR2Czht6WMHbQzGH0MxnPMCQ9nHHAKqm7FTHSa0caUriL9tGLIBKnVH6UQUx7KJLIYCxm22J6gqJ5w==",
+    "AzureCosmosDBConnection": "AccountEndpoint=https://scc52919.documents.azure.com:443/;AccountKey=n1iU4IqOoR2Czht6WMHbQzGH0MxnPMCQ9nHHAKqm7FTHSa0caUriL9tGLIBKnVH6UQUx7KJLIYCxm22J6gqJ5w==;"
   }
 }

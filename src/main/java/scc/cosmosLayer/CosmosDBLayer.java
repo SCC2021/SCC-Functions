@@ -68,36 +68,4 @@ public class CosmosDBLayer {
         return db.getContainer("Deleted Channels");
     }
 
-
-	/*public CosmosItemResponse<Object> delUserById(String id) {
-		getUsersContainer();
-		PartitionKey key = new PartitionKey( id);
-		return users.deleteItem(id, key, new CosmosItemRequestOptions());
-	}
-
-	public CosmosItemResponse<Object> delUser(UserDAO user) {
-		getUsersContainer();
-		return users.deleteItem(user, new CosmosItemRequestOptions());
-	}
-
-	public CosmosItemResponse<UserDAO> putUser(UserDAO user) {
-		getUsersContainer();
-		return users.createItem(user);
-	}
-
-	public CosmosPagedIterable<UserDAO> getUserById( String id) {
-		getUsersContainer();
-		return users.queryItems("SELECT * FROM Users WHERE Users.id=\"" + id + "\"", new CosmosQueryRequestOptions(), UserDAO.class);
-	}
-
-	public CosmosPagedIterable<UserDAO> getUsers() {
-		getUsersContainer();
-		return users.queryItems("SELECT * FROM Users ", new CosmosQueryRequestOptions(), UserDAO.class);
-	}
-
-	public void close() {
-		client.close();
-	}*/
-
-
 }
