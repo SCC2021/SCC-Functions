@@ -1,5 +1,7 @@
 package scc.models;
 
+import java.time.LocalDate;
+
 public class Message {
     private String id;
     private String responseTo;
@@ -7,6 +9,7 @@ public class Message {
     private String user;
     private String body;
     private String mediaId;
+    private long sentAt;
 
     public String getId() {
         return id;

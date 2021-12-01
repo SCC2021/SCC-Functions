@@ -1,5 +1,7 @@
 package scc.models;
 
+import java.time.LocalDate;
+
 public class MessageDAO {
     private String _rid;
     private String _ts;
@@ -9,6 +11,7 @@ public class MessageDAO {
     private String mediaId;
     private String responseTo;
     private String id;
+    private long sentAt;
 
 
     public String get_rid() {
